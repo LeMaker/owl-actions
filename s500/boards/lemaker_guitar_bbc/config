@@ -1,0 +1,14 @@
+# The Guitar Core Board support different Base Board, and the LeMaker has released the Rev.B version.
+# The Rev.C and Rev.D will be released later, you can choose different DTS configure file according to your Base Board.
+#-------------------------------------------------------------------------------------------------------------
+
+# Base Board Rev.B  ------   KERNEL_DTS=lemaker_guitar_bbb
+# Base Board Rev.C  ------   KERNEL_DTS=lemaker_guitar_bbc
+# Base Board Rev.D  ------   KERNEL_DTS=lemaker_guitar_bbd
+
+ARCH=arm
+KERNEL_DTS=lemaker_guitar_bbc
+KERNEL_DEFCONFIG=atm705a_s500_defconfig
+UBOOT_DEFCONFIG=s500_defconfig
+
+MISC_IMAGE_SIZE=48
