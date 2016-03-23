@@ -5,7 +5,7 @@
 # Base Board Rev.D  ------   KERNEL_DTS=lemaker_guitar_bbd
 
 ARCH=arm
-KERNEL_DTS=lemaker_guitar_bbb
+KERNEL_DTS=lemaker_guitar_bbb_plus
 KERNEL_DEFCONFIG=atm705a_s500_defconfig
 UBOOT_DEFCONFIG=s500_defconfig
 
